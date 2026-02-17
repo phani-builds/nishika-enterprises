@@ -160,27 +160,15 @@
     flex-grow: 1;
 }
 
-/* Price & Action */
+/* Card Actions */
 .card-footer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin-top: auto;
     padding-top: 1rem;
     border-top: 1px solid #f3f4f6;
     gap: 10px;
-}
-
-.price-tag {
-    font-size: 1.2rem;
-    font-weight: 800;
-    color: var(--primary-color);
-}
-
-.price-unit {
-    font-size: 0.8rem;
-    color: var(--text-light);
-    font-weight: normal;
 }
 
 .btn-card-action {

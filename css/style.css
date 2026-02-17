@@ -393,25 +393,11 @@ section.hero-carousel {
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* CHANGED: Updated price badge styling and added gap */
 .carousel-content > div {
     display: flex;
     align-items: center;
-    gap: 1.5rem; /* ADDED: Space between price and button on desktop */
+    gap: 1.5rem; /* ADDED: Space between CTA items on desktop */
     flex-wrap: wrap;
-}
-
-.carousel-price {
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.95);
-    color: var(--primary-color);
-    padding: 0.5rem 1.25rem;
-    border-radius: 6px;
-    font-size: 1.25rem;
-    font-weight: 700;
-    box-shadow: none;
-    border: 2px solid var(--primary-color);
-    letter-spacing: 0.5px;
 }
 
 .carousel-btn {
@@ -625,12 +611,6 @@ section {
     min-height: 2.6rem;
 }
 
-.product-price-compact {
-    font-size: 1.125rem;
-    font-weight: 700;
-    color: var(--primary-color);
-    margin-bottom: 0.5rem;
-}
 
 .product-material,
 .product-thickness {
@@ -639,7 +619,7 @@ section {
     margin-bottom: 0.25rem;
 }
 
-.btn-get-price {
+.btn-get-quote {
     display: block;
     width: 100%;
     text-align: center;
@@ -654,7 +634,7 @@ section {
     margin-top: auto;
 }
 
-.btn-get-price:hover {
+.btn-get-quote:hover {
     background: var(--primary-dark);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
@@ -1042,6 +1022,11 @@ section {
     text-decoration: underline;
 }
 
+.footer-heart {
+    color: var(--primary-color);
+    margin: 0 0.25rem;
+}
+
 /* ===================================
    Floating Buttons
    =================================== */
@@ -1336,10 +1321,6 @@ section {
         gap: 1rem;
     }
 
-    .carousel-price {
-        font-size: 1.125rem;
-        padding: 0.4rem 1rem;
-    }
 
     .carousel-btn {
         padding: 0.875rem 2rem;
@@ -1439,16 +1420,13 @@ section {
         min-height: 2.4rem;
     }
 
-    .product-price-compact {
-        font-size: 1rem;
-    }
 
     .product-material,
     .product-thickness {
         font-size: 0.8rem;
     }
 
-    .btn-get-price {
+    .btn-get-quote {
         padding: 0.65rem;
         font-size: 0.85rem;
     }
